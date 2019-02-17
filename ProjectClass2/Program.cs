@@ -8,6 +8,12 @@ namespace ProjectClass2
 {
     class Program
     {
+        enum Colors
+        {
+            Red = 654356,
+            Blue = 345687
+        }
+
         static void Main(string[] args)
         {
             /*
@@ -32,8 +38,13 @@ namespace ProjectClass2
             Console.WriteLine(a);
             a += 3;
             Console.WriteLine(a);
-            
-            
+
+            string quantityString = String.Format("{0:n3}", 150003.9); //15,000
+
+            Console.WriteLine("This is the result: " + quantityString + Colors.Blue);
+
+          
+
             Console.ReadKey();
 
         }

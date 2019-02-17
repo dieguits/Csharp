@@ -46,7 +46,7 @@ namespace PracticeClass3
             int n1 = 10, n2 = 45;
             int suma = n1 + n2;
             string sum = suma.ToString("f3");
-            Console.WriteLine(sum);
+            Console.WriteLine("Suma: ------->" + sum);
 
             string s5 = "2045,67";
             double d5 = Convert.ToDouble(s5);
