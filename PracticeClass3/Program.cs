@@ -73,6 +73,12 @@ namespace PracticeClass3
             string ex4 = string.Format("{0:f3}", 432.8175);
             Console.WriteLine(ex4);
 
+            float x1 = 2, x2 = 8, x3 = 3, x4 = 5, result = 0;
+
+            result = x1 + x2 * x4 - x3 / x1;
+
+            Console.WriteLine("Order of precedence: " + result);
+
             Console.ReadKey();
         }
     }
