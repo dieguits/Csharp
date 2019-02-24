@@ -10,23 +10,19 @@ namespace ProjectClass5
     {
         static void Main(string[] args)
         {
-            int j = 1;
-            int suma2 = 0;
+            int sum = 5;
+            int i = 0;
 
-            for (; ; )
+            //Infinitive loop
+            //5 + 10 + 15 + 20 + 25
+            for (i = 10; i <= 25; i+=5)
             {
-                if (j < 4)
-                {
-                    suma2++;
-                    j++;
-                    Console.WriteLine(j + "-" + suma2);
-                }
-                if (j == 4)
-                {
-                    break;
-                }
-                Console.WriteLine("-");
+                sum += i;
             }
+
+            Console.WriteLine("Sum: " + sum);
+            Console.WriteLine("i: " + i);
+            Console.Read();
         }
     }
 }
