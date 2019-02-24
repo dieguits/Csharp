@@ -22,6 +22,18 @@ namespace ProjectClass5
 
             Console.WriteLine("Sum: " + sum);
             Console.WriteLine("i: " + i);
+
+            int sum2 = 5;
+            int i2 = 10;
+
+            while (i2 <= 25)
+            {
+                sum2 += i2;
+                i2 += 5;
+            }
+
+            Console.WriteLine("Sum: " + sum2);
+            Console.WriteLine("i: " + i2);
             Console.Read();
         }
     }
