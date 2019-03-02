@@ -15,7 +15,7 @@ namespace ProjectClass5._1
             int sum = 200;
             int iter = 0;
 
-            for (i = 190; i >= 100; i-=10)
+            for (i = 190; i >= 100; i -= 10)
             {
                 sum += i;
                 iter++;
@@ -24,6 +24,39 @@ namespace ProjectClass5._1
             Console.WriteLine("Sum: " + sum);
             Console.WriteLine("i: " + i);
             Console.WriteLine("Iterations: " + iter);
+            Console.WriteLine("----------------------------------");
+            //loop while
+            int j = 190;
+            int suma = 200;
+            int itera = 0;
+
+            while (j >= 100)
+            {
+                suma += j;
+                j -= 10;
+                itera++;
+            }
+
+            Console.WriteLine("Sum: " + suma);
+            Console.WriteLine("j: " + j);
+            Console.WriteLine("iteration: " + itera);
+            Console.WriteLine("----------------------------------");
+            //loop Do-while
+            int x = 190;
+            int sumy = 200;
+            int iterac = 0;
+
+            do
+            {
+                sumy += x;
+                x -= 10;
+                iterac++;
+
+            } while (x >= 100);
+
+            Console.WriteLine("Sum: " + sumy);
+            Console.WriteLine("x: " + x);
+            Console.WriteLine("iteraction: " + iterac);
 
             Console.ReadKey();
         }
