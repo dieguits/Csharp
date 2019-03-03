@@ -20,15 +20,22 @@ namespace ProjectClass5._2
             }
 
             //sarta = "";
-            for (int i = 0; i < 6; i++)
+            sarta = sarta + 1;
+            for (int i = 5; i > 0; i--)
             {
-                for (int j = 1; j < 6; j++)
+                sol = "";
+                for (int j = 1; j < i; j++)
                 {
+                    if (i == 5)
                     sol += j + "\t";
+                    else
+                        sol += "\t" + j + "\t";
                 }
-                Console.Write("\r");
-                Console.WriteLine("");
+                sol = "\r\n\t" + sol;
+                //Console.WriteLine("");
                 Console.WriteLine(sol);
+                if (i == 6)
+                    break;
             }
 
             //Console.WriteLine(sarta);
