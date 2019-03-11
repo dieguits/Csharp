@@ -10,7 +10,7 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
-
+            //Serie the primes number using neested loops.
             int times = 0;
             string output = "";
 
