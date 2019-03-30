@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysExercise", "ArraysExe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaddedArray", "JaddedArray\JaddedArray.csproj", "{CDE3FB2B-8803-4C36-9ED2-0B33F9DE7695}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringOperations", "StringOperations\StringOperations.csproj", "{0AE5935A-0EB2-4A76-B640-145D6E62909F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{CDE3FB2B-8803-4C36-9ED2-0B33F9DE7695}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDE3FB2B-8803-4C36-9ED2-0B33F9DE7695}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDE3FB2B-8803-4C36-9ED2-0B33F9DE7695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE5935A-0EB2-4A76-B640-145D6E62909F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE5935A-0EB2-4A76-B640-145D6E62909F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE5935A-0EB2-4A76-B640-145D6E62909F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE5935A-0EB2-4A76-B640-145D6E62909F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
