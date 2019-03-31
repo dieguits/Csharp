@@ -57,7 +57,23 @@ namespace Arrays2
                 Console.WriteLine();
             }
 
+            int[,] array2 = new int[4, 3] { { 2, 3, 5 }, { 5, 7, 3 }, { 5, 8, 4 }, { 5, 8, 1 } };
+
+            printArray(array2);
+
             Console.ReadKey();
+        }
+
+        private static void printArray(int[,] array2)
+        {
+            for (int i = 0; i < array2.GetLength(0); i++)
+            {
+                for (int j = 0; j < array2.GetLength(1); j++)
+                {
+                    Console.Write(array2[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }

@@ -10,7 +10,7 @@ namespace StringOperations
     {
         static void Main(string[] args)
         {
-            string str = "This is a test string, please check carefully";
+            string str = "This is a test string, please check, carefully";
 
             //Start with
             Console.WriteLine(str.StartsWith("This") == true ? "YES" : "NO");
@@ -35,11 +35,26 @@ namespace StringOperations
 
             //substring
             string nombre = "Perez, Diego";
-            //Console.WriteLine(nombre.IndexOf(','));
+            
             Console.WriteLine(nombre.Substring(nombre.IndexOf(',') + 1).Replace(" ", ""));
 
             Console.WriteLine(nombre.Substring(0, nombre.IndexOf(',') ));
-            
+
+            //Split
+
+            string[] sarta = str.Split(',');
+            Console.WriteLine("----------------------------------------");
+            foreach (string item in sarta)
+            {
+                Console.WriteLine(item);
+            }
+
+            string[] sarta2 = str.Split(new char[] { ',', 't', ' '});
+            Console.WriteLine("----------------------------------------");
+            foreach (string item in sarta2)
+            {
+                Console.WriteLine(item);
+            }
             Console.ReadKey();
         }
     }

@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaddedArray", "JaddedArray\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringOperations", "StringOperations\StringOperations.csproj", "{0AE5935A-0EB2-4A76-B640-145D6E62909F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOnes", "NumberOnes\NumberOnes.csproj", "{1D383279-D52D-4A55-ABB8-8A5F127F1D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment4", "Assignment4\Assignment4.csproj", "{3895A428-C206-4F4A-8659-E9BBA1293EDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{0AE5935A-0EB2-4A76-B640-145D6E62909F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AE5935A-0EB2-4A76-B640-145D6E62909F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AE5935A-0EB2-4A76-B640-145D6E62909F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D383279-D52D-4A55-ABB8-8A5F127F1D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D383279-D52D-4A55-ABB8-8A5F127F1D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D383279-D52D-4A55-ABB8-8A5F127F1D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D383279-D52D-4A55-ABB8-8A5F127F1D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3895A428-C206-4F4A-8659-E9BBA1293EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3895A428-C206-4F4A-8659-E9BBA1293EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3895A428-C206-4F4A-8659-E9BBA1293EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3895A428-C206-4F4A-8659-E9BBA1293EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
