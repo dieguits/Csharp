@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOnes", "NumberOnes\Nu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment4", "Assignment4\Assignment4.csproj", "{3895A428-C206-4F4A-8659-E9BBA1293EDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOriented", "ObjectOriented\ObjectOriented.csproj", "{DDA663A8-949C-440E-A657-E03F4A124D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment5", "Assignment5\Assignment5.csproj", "{635C7A9E-8D9C-458B-805A-BBF97DF274C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{3895A428-C206-4F4A-8659-E9BBA1293EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3895A428-C206-4F4A-8659-E9BBA1293EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3895A428-C206-4F4A-8659-E9BBA1293EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA663A8-949C-440E-A657-E03F4A124D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA663A8-949C-440E-A657-E03F4A124D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA663A8-949C-440E-A657-E03F4A124D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA663A8-949C-440E-A657-E03F4A124D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635C7A9E-8D9C-458B-805A-BBF97DF274C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635C7A9E-8D9C-458B-805A-BBF97DF274C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635C7A9E-8D9C-458B-805A-BBF97DF274C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635C7A9E-8D9C-458B-805A-BBF97DF274C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
